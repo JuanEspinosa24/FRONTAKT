@@ -1,0 +1,33 @@
+.nav-link.active:not(.no-underline)::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #f00c0c;
+  }
+
+.bg-danger.no-underline.rounded-pill.px-lg-4.text-center:hover{
+    background: white !important;
+    color: black;
+    letter-spacing: 1px;
+    
+}
+
+.bg-danger.no-underline.rounded-pill.px-lg-4.text-center{
+    transition: ease-in-out 0.2s;
+}
+
+a.bg-danger.no-underline.rounded-pill.px-lg-4.text-center.fw-semibold.nav-link{
+  color: white;
+}
+
+a.bg-danger.no-underline.rounded-pill.px-lg-4.text-center.fw-semibold.nav-link:hover{
+  color: black;
+}
+
+
+/* @media (max-width: 575.98px) {
+    .navbar-brand-img {
+      content: url("/public/imgs/logo.png");
+      width: 40px;
+      height: 40px;
+    }
+  } */
