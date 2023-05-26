@@ -34,7 +34,7 @@ export const MyNavbar = () => {
           {/* <Navbar.Brand href="#Inicio">
             <img
               alt="logo"
-              src="/public/imgs/logo2.png"
+              src="/src/imgs/logo2.png"
               width="130"
               height="60"
               className="d-inline-block align-top navbar-brand-img"
@@ -43,7 +43,7 @@ export const MyNavbar = () => {
           <Link to="/">
             <img
               alt="logo"
-              src="/public/imgs/descarga.png"
+              src="/src/imgs/descarga.png"
               width="220"
               className="d-inline-block align-top navbar-brand-img"
             />

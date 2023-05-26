@@ -11,7 +11,7 @@ export const InicioSection = () => {
     <Container id="inicio"
     fluid style={{
       //Aca abajo imagen HD
-      backgroundImage: "url('../../public/imgs/Fonditoakt.jpg')",
+      backgroundImage: "url('../../src/imgs/Fonditoakt.jpg')",
       backgroundSize: "cover",
       // height:"900px"
     }}
@@ -26,7 +26,7 @@ export const InicioSection = () => {
 
           <div className="d-flex justify-content-center">
     {/* <Button variant="danger" className="col-md-4 rounded-pill mt-5 fw-semibold shadow text-white py-2 px-5"> */}
-      <a className="text-decoration-none col-md- rounded-pill mt-4 fw-semibold shadow text-white py-2 px-3 text-center"  style={{background:"green"}}href="https://api.whatsapp.com/send?phone=573178637526&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20AKT" target="_blank" ><img src="../../public/imgs/wppakt.png" height={50} /> </a>
+      <a className="text-decoration-none col-md- rounded-pill mt-4 fw-semibold shadow text-white py-2 px-3 text-center"  style={{background:"green"}}href="https://api.whatsapp.com/send?phone=573178637526&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20AKT" target="_blank" ><img src="../../src/imgs/wppakt.png" height={50} /> </a>
       
     {/* </Button> */}
   </div>

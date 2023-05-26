@@ -57,14 +57,14 @@ export const SignUp = () => {
   });
   return (
     // <Container fluid className='vh-100 position-relative overflow-x-hidden'>
-    //   <Image src='../../public/imgs/R1.jpg' fluid className='position-absolute  top-0 start-0'/>
+    //   <Image src='../../src/imgs/R1.jpg' fluid className='position-absolute  top-0 start-0'/>
     //   <h1 className=''>prueba</h1>
     // </Container>
     <Container
       fluid
       style={{
         //aca abajo la imagen HD
-        backgroundImage: "url('../../public/imgs/Fonditoakt.jpg')",
+        backgroundImage: "url('../../src/imgs/Fonditoakt.jpg')",
         backgroundSize: "cover",
       }}
       className="pb-5 p-5 position-relative overflow-x-hidden d-flex flex-column aling-items-center justify-content-center overflow-y-hidden"
@@ -77,7 +77,7 @@ export const SignUp = () => {
           style={{ background: "#ffffff" }}
         >
           <div className="d-flex justify-content-center aling-items-center">
-            <img src="../../public/imgs/descarga.png" width={200} />
+            <img src="../../src/imgs/descarga.png" width={200} />
           </div>
           <div className="text-center">
             <span className="text-center text-black">

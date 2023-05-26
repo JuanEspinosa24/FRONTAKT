@@ -58,7 +58,7 @@ export const Login = () => {
       fluid
       style={{
         //Aca abajo imagen HD
-        backgroundImage: "url('../../public/imgs/Fonditoakt.jpg')",
+        backgroundImage: "url('../../src/imgs/Fonditoakt.jpg')",
         backgroundSize: "cover",
       }}
       className="pb-5 p-5 position-relative overflow-x-hidden  flex-column aling-items-center justify-content-center overflow-y-hidden "
@@ -71,7 +71,7 @@ export const Login = () => {
           style={{ background: "#ffffff" }}
         >
           <div className="d-flex justify-content-center aling-items-center  ">
-            <img src="../../public/imgs/descarga.png" width={200} />
+            <img src="../../src/imgs/descarga.png" width={200} />
           </div>
           <div className="text-center">
             <span className="text-center text-red">
